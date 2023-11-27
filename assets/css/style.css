@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+}
+header {
+  background-color: #000;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+.logo-box img{
+  width: 18px;
+}
+.top-nav {
+  display: flex;
+  justify-content: space-evenly;
+  width: 52%;
+}
+.nav-link {
+  color: white;
+  text-decoration: none;
+  padding: 7px;
+}
+.icons-header{
+  display: flex;
+  align-items: center;
+}
+.icons-header img{
+  padding: 7px;
+}
+.icons-header img:first-child{
+   margin-right: 10px;
+}
+
+main {
+  background-color: pink;
+  height: 800px;
+}
+/* Shoppin-Event */
+.Shoppin-Event{
+  height: 620px;
+  background: wheat url("../images/bg/shopping-event.jpg") no-repeat center;
+  background-size: cover;
+  text-align: center;
+}
+
+.Shoppin-Event .titles-box{
+  padding-top: 30px;
+}
+.Shoppin-Event .titles-box h1 {
+  margin-top: 0;
+}
+.Shoppin-Event .titles-box h3{
+  font-size: 20px;
+  width: 21%;
+  margin: auto;
+}
+
+
+footer {
+  background-color: gray;
+  height: 300px;
+}
