@@ -1,17 +1,26 @@
+* {
+  font-family: Roboto;
+}
+
 body {
   margin: 0;
 }
 header {
   background-color: #000;
+  width: 100%;
   height: 44px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 14px;
   color: white;
+  position: fixed;
+  z-index: 100;
+  opacity: 80%;
 }
-.logo-box img{
-  width: 18px;
+.logo-box i {
+  font-size: 24px;
+  color: white;
 }
 .top-nav {
   display: flex;
@@ -23,15 +32,15 @@ header {
   text-decoration: none;
   padding: 7px;
 }
-.icons-header{
+.icons-header {
   display: flex;
   align-items: center;
 }
-.icons-header img{
+.icons-header img {
   padding: 7px;
 }
-.icons-header img:first-child{
-   margin-right: 10px;
+.icons-header img:first-child {
+  margin-right: 10px;
 }
 
 main {
@@ -39,31 +48,76 @@ main {
   height: 800px;
 }
 /* Shoppin-Event */
-.Shoppin-Event{
+.Shoppin-Event {
+  padding-top: 44px;
   height: 620px;
   background: wheat url("../images/bg/shopping-event.jpg") no-repeat center;
   background-size: cover;
   text-align: center;
 }
 
-.Shoppin-Event .titles-box{
+.Shoppin-Event .titles-box {
   padding-top: 30px;
 }
 .Shoppin-Event .titles-box h1 {
   margin-top: 0;
 }
-.Shoppin-Event .titles-box h3{
+.Shoppin-Event .titles-box h3 {
   font-size: 20px;
   width: 21%;
   margin: auto;
 }
 
 /*############# watch Section #################*/
-.watch video{
-   width: 100%;
+.watch {
+  position: relative;
+  color: white;
+}
+.watch video {
+  width: 100%;
+}
+.watch .watch-info {
+  position: absolute;
+  bottom: 60px;
+  width: 100%;
+  text-align: center;
+}
+.watch .links a {
+  background: #fff;
+  color: #000;
+  padding: 10px 15px;
+  border-radius: 25px;
+  text-decoration: none;
+}
+/* ######### row-3 ############ */
+.row-3,
+.row-4 {
+  display: flex;
+  justify-content: space-evenly;
+  height: 580px;
+  margin-bottom: 10px;
+}
+.col {
+  background: no-repeat center;
+  background-size: cover;
+  width: 49%;
 }
 
+.macbook-pro {
+  background-image: url("../images/bg/macbook-pro.jpg");
+}
 
+.watch-ultra-2 {
+  background-image: url("../images/bg/watch-ultra-2.jpg");
+}
+
+.apple-card {
+  background-image: url("../images/bg/apple-card_large.jpg");
+}
+
+.promo_iphone_tradein {
+  background-image: url("../images/bg/promo_iphone_tradein_large.jpg");
+}
 /* footer */
 footer {
   background-color: gray;
